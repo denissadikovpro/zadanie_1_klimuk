@@ -657,6 +657,26 @@ function zavolaj_footer() {
 include_once 'footer.php';
 zavolaj_footer();
 ?>
+
+
+
+
+
+<?php
+$jsonContent = file_get_contents('data.json');
+$bannerData = json_decode($jsonContent, true);
+$textBanners = $bannerData['text_banner'];
+?>
+
+<div id="banner-container">
+    <?php foreach ($textBanners as $image => $title): ?>
+        <a href="#">
+        <img src="banner_photos/<?php echo htmlspecialchars($image); ?>" alt="<?php echo htmlspecialchars($title); ?>" style="width:100%;">
+            <p><?php echo htmlspecialchars($title); ?></p>
+        </a>
+    <?php endforeach; ?>
+</div>
+
   <!-- ***** Footer Area End ***** -->
 
 
