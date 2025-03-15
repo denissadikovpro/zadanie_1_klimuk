@@ -677,6 +677,26 @@ $textBanners = $bannerData['text_banner'];
     <?php endforeach; ?>
 </div>
 
+<!-- Otvaranie URL stranok -->
+
+
+<?php
+$jsonContent = file_get_contents('domy.json');
+$housesData = json_decode($jsonContent, true);
+$houses = $housesData['domy'];
+?>
+
+<div id="houses-container">
+    <?php foreach ($houses as $house): ?>
+        <a href="<?php echo htmlspecialchars($house['url']); ?>" target="_blank">
+            <div class="house">
+                <p>Číslo domu: <?php echo htmlspecialchars($house['číslo_domu']); ?></p>
+                <p>Strecha: <?php echo htmlspecialchars($house['strecha']); ?></p>
+            </div>
+        </a>
+    <?php endforeach; ?>
+</div>
+
   <!-- ***** Footer Area End ***** -->
 
 
