@@ -1,0 +1,15 @@
+{
+    "domy": {
+      "dom1": {
+        "číslo_domu": "9",
+        "strecha": "červená",
+        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fforum.corona-renderer.com%2Findex.php%3Ftopic%3D28646.0&psig=AOvVaw0HUYE7MkC7ombdgBE1Xt4V&ust=1742148412554000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCOC6l9vWjIwDFQAAAAAdAAAAABAE"
+      },
+      "dom2": {
+        "číslo_domu": "420",
+        "strecha": "čierna",
+        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fhouse%2F&psig=AOvVaw0HUYE7MkC7ombdgBE1Xt4V&ust=1742148412554000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCOC6l9vWjIwDFQAAAAAdAAAAABAI"
+      }
+    }
+  }
+  
